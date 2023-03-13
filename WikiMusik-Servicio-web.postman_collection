@@ -1,0 +1,297 @@
+{
+	"info": {
+		"_postman_id": "779d54ef-73d2-4a50-81a5-ccaa6671aa27",
+		"name": "Servicio-web",
+		"description": "Coleccion de prueba del Servicio-web (WikiMusik).",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Bandas",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://wikimusik-servicio-web.herokuapp.com/bandas",
+					"protocol": "https",
+					"host": [
+						"wikimusik-servicio-web",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"bandas"
+					]
+				},
+				"description": "Obtiene la informacion de todas las bandas"
+			},
+			"response": []
+		},
+		{
+			"name": "Banda/id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://wikimusik-servicio-web.herokuapp.com/banda/1",
+					"protocol": "https",
+					"host": [
+						"wikimusik-servicio-web",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"banda",
+						"1"
+					]
+				},
+				"description": "Obtiene una banda en especifico"
+			},
+			"response": []
+		},
+		{
+			"name": "Banda/id/imagen",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://wikimusik-servicio-web.herokuapp.com/banda/1/imagen",
+					"protocol": "https",
+					"host": [
+						"wikimusik-servicio-web",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"banda",
+						"1",
+						"imagen"
+					]
+				},
+				"description": "Obtiene la imagen de una banda en especifico"
+			},
+			"response": []
+		},
+		{
+			"name": "Genero/id/Bandas",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://wikimusik-servicio-web.herokuapp.com/genero/1/bandas",
+					"protocol": "https",
+					"host": [
+						"wikimusik-servicio-web",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"genero",
+						"1",
+						"bandas"
+					]
+				},
+				"description": "Obtiene las bandas que son de ese genero"
+			},
+			"response": []
+		},
+		{
+			"name": "Albumes",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://wikimusik-servicio-web.herokuapp.com/albumes",
+					"protocol": "https",
+					"host": [
+						"wikimusik-servicio-web",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"albumes"
+					]
+				},
+				"description": "Obtiene la informacion de todos los albumes"
+			},
+			"response": []
+		},
+		{
+			"name": "Album/id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://wikimusik-servicio-web.herokuapp.com/album/1",
+					"protocol": "https",
+					"host": [
+						"wikimusik-servicio-web",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"album",
+						"1"
+					]
+				},
+				"description": "Obtiene un album en especifico"
+			},
+			"response": []
+		},
+		{
+			"name": "Album/id/Imagen",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://wikimusik-servicio-web.herokuapp.com/album/1/imagen",
+					"protocol": "https",
+					"host": [
+						"wikimusik-servicio-web",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"album",
+						"1",
+						"imagen"
+					]
+				},
+				"description": "Obtiene la imagen de un album en especifico"
+			},
+			"response": []
+		},
+		{
+			"name": "Banda/id/Albumes",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://wikimusik-servicio-web.herokuapp.com/banda/1/albumes",
+					"protocol": "https",
+					"host": [
+						"wikimusik-servicio-web",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"banda",
+						"1",
+						"albumes"
+					]
+				},
+				"description": "Obtiene los albumes de la banda en especifico"
+			},
+			"response": []
+		},
+		{
+			"name": "Canciones",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://wikimusik-servicio-web.herokuapp.com/canciones",
+					"protocol": "https",
+					"host": [
+						"wikimusik-servicio-web",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"canciones"
+					]
+				},
+				"description": "Obtiene la informacion de todas las canciones"
+			},
+			"response": []
+		},
+		{
+			"name": "Cancion/id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://wikimusik-servicio-web.herokuapp.com/cancion/1",
+					"protocol": "https",
+					"host": [
+						"wikimusik-servicio-web",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"cancion",
+						"1"
+					]
+				},
+				"description": "Obtiene una cancion en especifico"
+			},
+			"response": []
+		},
+		{
+			"name": "Album/id/Canciones",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://wikimusik-servicio-web.herokuapp.com/album/1/canciones",
+					"protocol": "https",
+					"host": [
+						"wikimusik-servicio-web",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"album",
+						"1",
+						"canciones"
+					]
+				},
+				"description": "Obtiene las canciones que son del album en especifico"
+			},
+			"response": []
+		},
+		{
+			"name": "Generos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://wikimusik-servicio-web.herokuapp.com/generos",
+					"protocol": "https",
+					"host": [
+						"wikimusik-servicio-web",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"generos"
+					]
+				},
+				"description": "Obtiene la informacion de todos los generos"
+			},
+			"response": []
+		},
+		{
+			"name": "Genero/id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://wikimusik-servicio-web.herokuapp.com/genero/1",
+					"protocol": "https",
+					"host": [
+						"wikimusik-servicio-web",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"genero",
+						"1"
+					]
+				},
+				"description": "Obtiene un genero en especifico"
+			},
+			"response": []
+		}
+	]
+}
